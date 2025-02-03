@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+article {
+  width: 2100px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 25px;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(199, 179, 199); */
+  margin-top: 30px;
+  font-size: 25px;
+  color: rgb(201 43 57);
+}
+
+.main-header {
+  font-family: cursive;
+  font-size: 90px;
+}
+
+.header-links {
+  display: flex;
+  gap: 150px;
+}
+
+.header-links :link {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: bold;
+  color: #333;
+}
+
+.header-links :visited {
+  color: #333;
+}
+
+.header-links :hover {
+  color: rgb(201 43 57);
+}
+
+.header-links :active {
+  color: rgb(201 43 57);
+}
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: rgb(201 43 57);
+  padding: 20px 0px;
+  margin: 50px 0px;
+
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 25px;
+  color: #333;
+}
+
+.choose-a-location-to-order {
+  color: #fff;
+  text-decoration: none;
+}
+
+.icon1 {
+  color: #333;
+  font-weight: bold;
+  background-color: #f6a923;
+  text-decoration: none;
+  text-transform: capitalize;
+  border-radius: 50px;
+  padding: 30px;
+}
+
+.images {
+  max-width: 100%;
+  height: auto;
+}
+
+.section2 {
+  display: flex;
+  /* gap: 200px; */
+  justify-content: space-around;
+  /* background-color: antiquewhite; */
+}
+
+.section2-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.par {
+  font-weight: bold;
+  margin: 20px 0px;
+  text-align: left;
+  color: rgb(201 43 57);
+  text-transform: capitalize;
+}
+
+.hand-breaded {
+  font-size: 70px;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.icon2 {
+  color: #fff;
+  font-weight: bold;
+  background-color: rgb(201 43 57);
+  text-decoration: none;
+  text-transform: capitalize;
+  border-radius: 50px;
+  padding: 30px 0px;
+  margin: 40px 0px;
+  width: 250px;
+}
+
+.section3 {
+  display: flex;
+  justify-content: space-around;
+  /* gap: 200px; */
+  /* background-color: aqua; */
+  align-items: center;
+  margin: 150px 0px;
+}
+
+.section3-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 50px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.delicious {
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.section4 {
+  display: flex;
+  justify-content: space-around;
+  /* gap: 200px; */
+  align-items: center;
+  /* background-color: beige; */
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.spend {
+  text-align: left;
+}
+
+.terms:link {
+  color: rgb(201 43 57);
+  font-weight: bold;
+}
+
+.terms:hover {
+  color: #232af6;
+}
+
+.exclusive {
+  line-height: 1.25cm;
+}
+
+.sign-up {
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+  background-color: rgb(201 43 57);
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 30px 0px;
+  margin: 40px 0px;
+  width: 250px;
+}
+
+/* .section5 {
+  display: flex;
+  flex-direction: column;
+} */
+
+.par5 {
+  font-weight: bold;
+  margin: 20px 0px;
+  color: rgb(201 43 57);
+  text-transform: capitalize;
+}
+
+.foods {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 80px 0px;
+  /* background-color: beige; */
+}
+
+.image {
+  display: block;
+}
+
+.food-link {
+  color: #333;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.food-link:hover {
+  color: rgb(201 43 57);
+}
+
+.section6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* background-color: antiquewhite; */
+  text-align: left;
+  padding: 100px;
+  gap: 200px;
+  margin-bottom: 100px;
+}
+
+.title-six {
+  font-size: 50px;
+  margin: 20px 0px;
+  color: #111;
+}
+
+.linee {
+  line-height: 1.25cm;
+}
+
+.bring {
+  margin: 40px 0px;
+}
+
+.section6-left {
+  display: block;
+  display: flex;
+  flex-direction: column;
+}
+
+.par6 {
+  margin-bottom: 60px;
+}
+
+.welcome-link {
+  color: rgb(201 43 57);
+  font-weight: bold;
+}
+
+.welcome-link:hover {
+  color: #232af6;
+}
+
+.about {
+  text-align: center;
+}
+
+.section7 {
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgba(95, 158, 160, 0.185); */
+  margin-bottom: 120px;
+  padding: 100px 0px;
+}
+
+.next {
+  text-align: center;
+}
+
+.favorite {
+  margin-bottom: 80px;
+}
+
+.im {
+  display: block;
+  margin: 50px;
+}
+
+.lines {
+  text-align: top;
+  text-decoration: none;
+
+  text-transform: capitalize;
+  background-color: rgb(201 43 57);
+  color: #333;
+  font-weight: bold;
+
+  border-radius: 50px;
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.lines:hover {
+  color: #fff;
+}
+
+.fav-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.helpful {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* background-color: rgba(68, 85, 102, 0.26); */
+  padding-bottom: 80px;
+  border-top: solid 6px #33333363;
+  border-bottom: solid 6px #33333363;
+  margin-bottom: 80px;
+}
+
+.help {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.last-head {
+  text-transform: capitalize;
+  margin: 50px 0px;
+  text-align: left;
+}
+
+.linkk {
+  color: #333;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.linkk:hover {
+  color: rgb(201 43 57);
+  /* font-weight: bold; */
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  margin-bottom: 90px;
+  /* background-color: antiquewhite; */
+  padding: 50px;
+  font-size: 20px;
+}
+
+.footer-link {
+  display: flex;
+  display: inline;
+  flex-direction: row;
+  padding-right: 80px;
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-link:hover {
+  color: rgb(201 43 57);
+}
