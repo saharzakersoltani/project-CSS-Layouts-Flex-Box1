@@ -9,10 +9,7 @@ This project is a **CSS Flexbox Layout Demonstration** that showcases how to use
 - [What is this project about?](#what-is-this-project-about)
 - [What did I do?](#what-did-i-do)
 - [Why is this project useful?](#why-is-this-project-useful)
-- [Usage](#usage)
-- [Examples](#examples)
-- [Contributing](#contributing)
-- [License](#license)
+- [🚀 Live Demo](#-live-demo)
 
 ---
 
@@ -54,4 +51,15 @@ This project is a collection of **CSS Flexbox examples** that demonstrate how to
 - **Open Source**: Sharing this project on GitHub allows others to contribute, improve, or use it as a reference.
 
 ---
+
+## 🚀 Live Demo  
+You can view the live version of this project here:  
+
+🔗 [Live Demo](https://saharzakersoltani.github.io/project-CSS-Layouts-Flexbox-1/)  
+
+Feel free to explore and let me know your thoughts! 😊  
+
+
+
+
 
